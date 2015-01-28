@@ -39,5 +39,18 @@ textarea{overflow:auto}
 optgroup{font-weight:bold}
 table{border-collapse:collapse;border-spacing:0}
 td,th{padding:0}
-body{font-size:16px}
-.song{width:128px;float:left}
+body{font-size:16px;font-family:'Varela Round',sans-serif}
+figure{margin:0}
+a{text-decoration:none}
+.button-menu{position:absolute;top:50%;margin-top:-10px;left:.5em}
+.border-button{border-bottom:1px solid #818181}
+.container{padding:1.4rem;font-size:0;text-align:center}
+.name{color:#333}
+.menu{display:none}
+.relative{position:relative}
+.author{color:#818181}
+.header{height:3.5em;}
+.header .title{font-size:1.1em;text-align:center;color:#000;margin:0;line-height:3.5em}
+.song{width:8rem;display:inline-block;font-size:1rem;margin-right:1em;margin-bottom:1em;width:8rem;text-align:left;}
+.song:nth-child(even){margin-right:0}
+.song p{margin:.5em 0}
